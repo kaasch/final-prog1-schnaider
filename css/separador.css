@@ -1,0 +1,169 @@
+
+.bck-separador {
+    display: flex;
+    width: 100%;
+    height: 28em;
+    background-color: var(--secondary-color);
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .img-separador {
+    display: flex;
+    gap: 7em;
+    padding-top: 3em;
+  }
+
+
+
+  .bck-separador h2{
+    display: flex;
+    color: var(--bck-color);
+    font-family: 'Mungil';
+    font-size: 45px;
+    left:11em;
+    letter-spacing: 0.06em;
+
+}
+
+.contenedor-random{
+  height: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.contenedor-random img{
+height: 18.75em;
+}
+
+.quiero{
+  display: flex;
+  color: var(--primary-color);
+  font-family: 'Mungil';
+  font-size: 63px;
+  left:4.5em;
+  letter-spacing: 0.03em;
+  position: absolute;
+}
+
+
+.ya{
+  display: flex;
+  color: var(--primary-color);
+  font-family: 'Mungil';
+  font-size: 63px;
+  right:5.5em;
+  letter-spacing: 0.03em;
+  position: absolute;
+}
+
+/*slider*/
+
+.slider{
+  overflow: hidden;
+  background-color: var(--secondary-color);
+
+}
+
+.slider-inner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.slider-inner img{
+width: 100%;
+height: 100%;
+}
+
+/* carousel imagenes */
+
+.contenedor-carousel{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: var(--secondary-color) !important;
+  padding: 2.5em 0em 2.5em 0 !important;
+}
+
+.contenedor-items{
+  width: 60% !important;
+}
+
+.contenedor-item {
+  border-radius: 1em !important;
+}
+
+.contenedor-item img{
+  border-radius: 1em !important;
+}
+
+@media (max-width:500px){
+  .bck-separador {
+    display: flex;
+    width: 100%;
+    height: 48em;
+    background-color: var(--secondary-color);
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .img-separador {
+    justify-content: center ;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 1em;
+    padding: 0 0 0 5em;
+    margin: 0;
+  }
+
+  .img-separador img{
+    padding: 0;
+    margin: 0;
+    width:60%;
+    height: 50%;
+  }
+
+
+
+}
+
+@media (max-width:900px){
+  .quiero{
+    display: flex;
+    color: var(--primary-color);
+    font-family: 'Mungil';
+    font-size: 63px;
+    left: 2em;
+    top: 0.2em;
+    letter-spacing: 0.03em;
+    position: absolute;
+  }
+  
+  
+  .ya{
+    display: flex;
+    color: var(--primary-color);
+    font-family: 'Mungil';
+    font-size: 63px;
+    left:2.6em;
+    bottom: 0.2em;
+    letter-spacing: 0.03em;
+    position: absolute;
+  }
+  .contenedor-random img{
+    height: 16em;
+    }
+
+}

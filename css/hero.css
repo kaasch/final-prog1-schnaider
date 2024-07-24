@@ -1,0 +1,115 @@
+.hero-container{
+    margin-left: 4em;
+    margin-top: 4em;
+    margin-bottom: 7em;
+    overflow: hidden;
+ 
+}
+
+.hero-info{
+    padding: 0 46.9em 0 2.3em;
+
+}
+
+.hero-container img{
+    width: 38%;
+    position: absolute;
+    right:-7em;
+    top: 7.7em;
+    
+}
+
+.hero-container h1{
+    margin-bottom: 0.5em;
+    font-size: 60px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.hero-container p{
+    margin-bottom: 2.4em;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.btnn-hero{
+    font-family: "Mungil";
+    align-items: center;
+    background-clip: padding-box;
+    background-color:var(--primary-color);
+    border: 0.063em solid transparent;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 0.063em 0.188em 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.2em;
+    justify-content: center;
+    padding: 0.8em 1.7em;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.btnn-hero a{
+    color:var(--bck-color);
+}
+
+.btnn-hero:hover,
+.btnn-hero:focus {
+    background-color: var(--secondary-color);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.25em 0.75em;
+
+  }
+
+@media (max-width:1080px){
+
+    .hero-container{
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        padding: 0;
+        margin: 2em 3em 6em 3em;
+        
+    }
+
+    .hero-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        gap: 1em;
+    
+    }
+
+    .hero-container h1{
+     
+        font-size: 30px;
+        color: var(--primary-color);
+        font-weight: 600;
+        display: flex;
+    }
+    
+    .hero-container p{
+       
+        font-size: 13px;
+        color: var(--primary-color);
+        display: flex;
+    }
+    
+    .btnn-hero{
+        font-size: 1em;
+        padding: 0.6em 2em
+    }
+    
+
+    .hero-container img{
+        display: none;
+        
+    }
+}

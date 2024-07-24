@@ -1,0 +1,174 @@
+.contenedorNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25em 3.75em;
+  font-family: "Mungil";
+  font-size: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 3.5em;
+  font-weight: 500;
+}
+
+.menu a {
+  color: var(--primary-color);
+}
+
+.menu li a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 250ms;
+}
+
+.menu li a:focus {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+/* carrito */
+
+.count-products {
+  position: absolute;
+  top: 2.77em;
+  right: 9.3em;
+  background-color: var(--primary-color);
+  color: var(--bck-color);
+  width: 1em;
+  height: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#contador-productos {
+  font-size: 0.7em;
+  font-weight: 400;
+  font-family: "Fredoka";
+}
+
+.container-cart-products {
+  position: absolute;
+  top: 3.8em;
+  background-color: var(--bck-color);
+  right: 8em;
+  width: 18em;
+  z-index: 2;
+  padding: 0.5em;
+  border-radius: 1em;
+  box-shadow: 0px 3px 0.6em#757575bd;
+}
+
+.cart-product {
+  display: flex;
+  flex-direction: column;
+ 
+  font-size: 0.94em;
+}
+
+.info-cart-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8em 1em 0.8em 1em;
+  border-bottom: 1.4px solid rgba(163, 163, 163, 0.644); 
+  gap: 1em;
+}
+
+.icon-cerrar {
+  padding-left: 0.8em;
+  transition: all 250ms;
+}
+
+.icon-cerrar:hover {
+  color: rgb(192, 62, 62);
+  cursor: pointer;
+}
+
+.cantidad-producto {
+  font-weight: 600;
+}
+
+.precio-producto {
+  font-weight: 600;
+  position: absolute;
+  right: 3.4em;
+}
+
+.titulo-producto{
+  position: absolute;
+  left: 3em;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  font-family: "Fredoka";
+  padding: 0.7em 0em;
+  font-weight: 500;
+}
+
+.total-pagar {
+  font-weight: 600;
+}
+
+.container-cart-products p {
+  font-family: "Fredoka";
+}
+
+.hidden-cart{
+    display: none;
+}
+
+.cart-empty{
+  padding: 1em 0em;
+  text-align: center;
+  font-size: 0.88em;
+  color: rgb(102, 102, 102);
+}
+
+.hidden-all{
+  display: none;
+}
+
+.hidden-hamburguesa{
+ 
+display: none;
+
+}
+
+@media (max-width:800px){
+
+  .contenedorNav {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.4em;
+    font-family: "Mungil";
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .menu{
+    display: none;
+  }
+
+
+
+
+}

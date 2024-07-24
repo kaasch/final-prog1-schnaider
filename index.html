@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalu Cookies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="/images/logos/cookies.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+
+    
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/separador.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body onload="getRandomImage()">
+    <header class="topheader">
+      <nav class="contenedorNav">
+        <a href="index.html" class="logo">
+          <img
+            height="55"
+            width="55"
+            src="/images/logos/carita.svg"
+            alt="carita logo"
+          />
+        </a>
+        <ul class="menu">
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="acerca.html">Acerca</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li>
+            <a href="">
+              <img
+                width="25"
+                height="25"
+                src="images/icons/Group 75.svg"
+                alt=""
+              />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                width="30"
+                height="30"
+                src="images/icons/perfil.png"
+                alt=""
+              />
+            </a>
+          </li>
+          <li class="menu-hamburguesa hidden-hamburguesa"><img width="20em" src="/images/icons/menu-hamburguesa.svg" alt=""></li>
+        </ul>
+      
+      </nav>
+    </header>
+
+    <section class="hero-container">
+      <div class="hero-info">
+       
+          <h1>
+          Probá el sabor más rico en un bocado
+        </h1>
+    
+       
+        <p class="detalle-hero">
+          Nuestras galletas están hechas con los mejores ingredientes que se siente en cada mordida. Perfectas para darte un gustito o para compartir con quienes más querés!
+        </p>
+        <button class="btnn-hero"><a href="tienda.html">Quiero probar!</a></button>
+      </div>
+        <div class="hero-img">
+          <img
+            src="images/cookie/clasica-no-cortada.png"
+            alt="cookie clásica de vainilla y chocolate"
+          />
+        </div>
+      
+    </section>
+
+    <section class="section-separador animate">
+      <div class="bck-separador">
+        <div class="img-separador">
+          <img class="animate"
+            width="273"
+            height="238"
+            src="/images/cookie/banana.png"
+            alt="banana"
+          />
+          <img
+            width="256"
+            height="238"
+            src="/images/cookie/arandano.png"
+            alt="arandano"
+          />
+          <img
+            width="278"
+            height="238"
+            src="/images/cookie/choco 1.png"
+            alt="chocolate"
+          />
+        </div>
+        <h2>mmMMMM!</h2>
+      </div>
+    </section>
+
+    <section >
+      <div class="contenedor-random">
+         <img  id="image_container" src="/images/cookie/triple choco.png">
+    
+      <h2 class="quiero">Quiero</h2>
+      <h2 class="ya">YA!</h2>
+      </div>
+     
+    </section>
+
+
+    <div id="carouselExample" class="carousel slide carousel-dark contenedor-carousel">
+      <div class="carousel-inner contenedor-items">
+        <div class="carousel-item active contenedor-item">
+          <img src="/images/carrusel/1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item contenedor-item">
+          <img src="/images/carrusel/2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item contenedor-item">
+          <img src="/images/carrusel/3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item contenedor-item">
+          <img src="/images/carrusel/4.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item contenedor-item">
+          <img src="/images/carrusel/5.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  
+    <footer>
+      <div class="footer-container">
+        <div class="logo-container">
+          <img
+            width="100"
+            src="/images/logos/kalu-cookies.svg"
+            alt="kalu cookies"
+          />
+        </div>
+        <div class="social-media-container">
+          <nav>
+            <ul class="lista-social">
+              <li>
+                <a href=""
+                  ><img
+                    width="25"
+                    src="/images/icons/twitter.svg"
+                    alt="twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    width="13"
+                    src="/images/icons/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/kaluu_cookies/" target="_blank">
+                  <img
+                    width="25"
+                    src="/images/icons/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    width="25"
+                    src="/images/icons/pinterest.svg"
+                    alt="pinterest"
+                  />
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav>
+            <ul class="lista-palabras-footer">
+              <li>
+                <a href="/contacto.html">Contactanos</a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="">Política de privacidad</a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="">Términos y condiciones</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer-bottom">
+            <p>
+              Copyright &copy;2024 Karen Schnaider - Todos los derechos
+              reservados
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

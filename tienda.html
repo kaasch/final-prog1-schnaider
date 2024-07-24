@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalu Cookies</title>
+    <link rel="icon" href="/images/logos/cookies.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="/css/tienda.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="contenedorNav">
+        <a href="index.html" class="logo">
+          <img
+            height="55"
+            width="55"
+            src="/images/logos/carita.svg"
+            alt="carita logo"
+          />
+        </a>
+        <ul class="menu">
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="acerca.html">Acerca</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li>
+            <a href="">
+              <img
+                width="25"
+                height="25"
+                src="images/icons/Group 75.svg"
+                alt=""
+              />
+            </a>
+            <div class="count-products">
+              <p id="contador-productos">0</p>
+            </div>
+
+            <div class="container-cart-products hidden-cart">
+              <div class="cart-product">
+                <div class="row-product hidden-all">
+                  <div class="info-cart-product">
+                  <p class="cantidad-producto">
+                  </p>
+                  <p class="titulo-producto">
+                    
+                  </p>
+                  <p class="precio-producto"></p>
+                  <p class="icon-cerrar"></p>
+                </div>
+                </div>
+                <div class="cart-total hidden-all">
+                  <p>Total:</p>
+                <p class="total-pagar"></p>
+              </div>
+              </div>
+              <p class="cart-empty hidden-all">El carrito está vacío</p>
+            </div>
+          </li>
+          <li>
+            <a href="">
+              <img
+                width="30"
+                height="30"
+                src="images/icons/perfil.png"
+                alt=""
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contenedor-items">
+      <div class="contenedor-item">
+        <div class="contenedor-img">
+          <img src="/images/cookie/clasica-no-cortada.png" alt="clasica" />
+        </div>
+        <div class="contenedor-texto">
+          <h2 class="titulo-item">Cookie Clásica (c/nuez)</h2>
+          <p class="descripcion-item">
+            Cookie de vainilla con trozos de chocolate
+          </p>
+          <p class="precio-item">$1500</p>
+          <button class="btn-item">Agregar al carrito</button>
+        </div>
+
+        
+      </div>
+      <div class="contenedor-item">
+        <div class="contenedor-img">
+          <img src="/images/cookie/cookies and cream.png" alt="oreo" />
+        </div>
+        <div class="contenedor-texto">
+          <h2 class="titulo-item">Cookies & Cream</h2>
+          <p class="descripcion-item">
+            Cookie con trozos de galletita de chocolate, crema con chips de
+            chocolate blanco.
+          </p>
+          <h3 class="precio-item">$1500</h3>
+          <button class="btn-item">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="contenedor-item">
+        <div class="contenedor-img">
+          <img src="/images/cookie/triple choco.png" alt="clasica" />
+        </div>
+        <div class="contenedor-texto">
+          <h2 class="titulo-item">Cookie Triple Chocolate</h2>
+          <p class="descripcion-item">
+            Cookie con chips de chocolate blanco, trozos de chocolate semi
+            amargo.
+          </p>
+          <p class="precio-item">$1500</p>
+          <button class="btn-item">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="contenedor-item">
+        <div class="contenedor-img">
+          <img src="/images/cookie/red-velvet.png" alt="clasica" />
+        </div>
+        <div class="contenedor-texto">
+          <h2 class="titulo-item">Red Velvet</h2>
+          <p class="descripcion-item">
+            Cookie red velvet con chips de chocolate blanco.
+          </p>
+          <p class="precio-item">$2000</p>
+          <button class="btn-item">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="contenedor-item">
+        <div class="contenedor-img">
+          <img src="/images/cookie/arandano.png" alt="clasica" />
+        </div>
+        <div class="contenedor-texto">
+          <h2 class="titulo-item">Cookie Arandano</h2>
+          <p class="descripcion-item">
+            Galleta de avena, pasas de uva, especias.
+          </p>
+          <p class="precio-item">$2000</p>
+          <button class="btn-item">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="contenedor-item">
+        <div class="contenedor-img">
+          <img src="/images/cookie/mantequilla de mani.png" alt="clasica" />
+        </div>
+        <div class="contenedor-texto">
+          <h2 class="titulo-item">Cookie Pasta de Maní</h2>
+          <p class="descripcion-item">
+            Cookie con trozos de maní, chocolate con leche con pasta de maní.
+          </p>
+          <p class="precio-item">$2000</p>
+          <button class="btn-item">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="logo-container">
+          <img
+            width="100"
+            src="/images/logos/kalu-cookies.svg"
+            alt="kalu cookies"
+          />
+        </div>
+        <div class="social-media-container">
+          <nav>
+            <ul class="lista-social">
+              <li>
+                <a href=""
+                  ><img
+                    width="25"
+                    src="/images/icons/twitter.svg"
+                    alt="twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    width="13"
+                    src="/images/icons/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/kaluu_cookies/"
+                  target="_blank"
+                >
+                  <img
+                    width="25"
+                    src="/images/icons/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    width="25"
+                    src="/images/icons/pinterest.svg"
+                    alt="pinterest"
+                  />
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav>
+            <ul class="lista-palabras-footer">
+              <li>
+                <a href="/contacto.html">Contactanos</a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="">Política de privacidad</a>
+              </li>
+              <li>|</li>
+              <li>
+                <a href="">Términos y condiciones</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer-bottom">
+            <p>
+              Copyright &copy;2024 Karen Schnaider - Todos los derechos
+              reservados
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="script-tienda.js"></script>
+  </body>
+</html>

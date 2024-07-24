@@ -1,0 +1,254 @@
+form {
+  padding: 1.4em 30em 1em 30em;
+  text-align: center;
+}
+
+form h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 2em;
+}
+.input-group {
+  display: flex;
+  text-align: left;
+  flex-direction: column
+
+}
+
+input, textarea{
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+    padding: 1em;
+    border-bottom: 1.6px solid #b8b7b7;
+    margin-bottom: 2em;
+    transition: all 400ms;
+}
+
+input:focus, textarea:focus{
+    border-bottom: 1.6px solid var(--primary-color);
+}
+
+.btn-form{
+    font-family: "Mungil";
+    align-items: center;
+    color: var(--bck-color);
+    background-clip: padding-box;
+    background-color:var(--primary-color);
+    border: 0.063em solid transparent;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 0.063em 0.188em 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.2em;
+    justify-content: center;
+    padding: 0.6em 2.6em;
+    text-decoration: none;
+    transition: all 250ms;
+    vertical-align: baseline;
+    width: auto;
+}
+
+
+.btn-form:hover {
+    background-color: var(--secondary-color);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.25em 0.75em;
+
+  }
+
+.radio-options{
+  display: flex;
+  align-items: baseline;
+  gap: 1.5em;
+  margin: 0.8em 0 1em 0;
+}
+
+.radio-options label{
+  font-size: 14px;
+  color: #696969;
+}
+
+/*seccion mapa*/
+
+#contenedor-mapa{
+width: 100%;
+height: 37em;
+background-color: var(--secondary-color);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 2.5em;
+}
+
+#contenedor-mapa h2{
+ 
+  font-family: 'Mungil';
+  color: var(--bck-color);
+  font-size: 43px;
+  letter-spacing: 0.04em ;
+}
+
+#mapa{
+  height: 25em;
+  width: 80%;
+  border-radius: 0.6em;
+}
+
+/*contenedor éxito*/
+
+.exito{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2em;
+}
+.contenedor-exito{
+  font-family: 'Mungil';
+  color: var(--primary-color);
+  width: 28em;
+  height: 24em;
+  border: 4px solid var(--primary-color);
+  border-radius: 2.813em;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em 0 3em 0;
+  padding-top: 5em;
+  gap: 2em;
+}
+.contenedor-exito img{
+  margin-bottom: 1em;
+}
+.ok-svg{
+  width: 5.625em;
+}
+.contenedor-exito h2{
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.contenedor-exito p{
+  font-size: 1.313em;
+  margin-bottom: 1em;
+}
+
+.btn-exito{
+    font-family: "Mungil";
+    align-items: center;
+    background-clip: padding-box;
+    background-color:var(--primary-color);
+    border: 0.063em solid transparent;
+    color: var(--bck-color);
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 0.063em 0.188em 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.2em;
+    justify-content: center;
+    padding: 0.7em 2.8em;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.btn-exito:hover,
+.btn-exito:focus {
+    background-color: var(--secondary-color);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0.25em 0.75em;
+
+  }
+
+
+  @media (max-width:1200px){
+
+    form {
+      padding:0em 17em;
+      text-align: center;
+    }
+
+    form h2 {
+      margin-bottom: 1.4em;
+    }
+
+    .radio-options{
+      display: flex;
+      align-items: baseline;
+      gap: 5em;
+      margin: 0.8em 0 1em 0;
+
+    }
+
+  }
+
+  @media (max-width:600px){
+
+    form {
+      padding:0em 3em;
+      text-align: center;
+    }
+
+    form h2 {
+      margin-bottom: 1.4em;
+    }
+
+    .radio-options{
+      display: flex;
+      align-items: baseline;
+      gap: 5em;
+      margin: 0.8em 0 1em 0;
+    }
+
+    #contenedor-mapa h2{
+ 
+      font-family: 'Mungil';
+      color: var(--bck-color);
+      font-size: 40px;
+      letter-spacing: 0.04em ;
+      padding-left: 1em;
+    }
+    .radio-options{
+      display: flex;
+      align-items: baseline;
+      gap: 2em;
+      margin: 0.8em 0 1em 0;
+
+    }
+
+    .contenedor-exito{
+      height: 20em;
+      margin: 2em 0 3em 0;
+      padding-top: 4em;
+      gap: 1em;
+      width: 20em;
+    }
+    .contenedor-exito img{
+      margin-bottom: 1em;
+      width: 4.5em;
+    }
+    .contenedor-exito h2{
+      font-size: 1.5em;
+      padding: 0 1em;
+    
+    }
+    
+    .contenedor-exito p{
+      font-size: 1.3em;
+      margin-bottom: 1em;
+    }
+
+    .btn-exito{
+      font-size: 1.1em;
+      padding: 0.6em 2em;
+ 
+  }
+  
+  
+
+  }

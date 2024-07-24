@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root{
+    --bck-color:#F6F5F5;
+    --primary-color: #0C359E;
+    --secondary-color: #e78eb9;
+    --text-color: #2D2D2D;
+}
+
+@font-face {
+    font-family: 'Mungil';
+    src: url(/font/mungil/Mungil-Regular.ttf);
+}
+
+body {
+    font-family: "Fredoka","Montserrat", sans-serif;
+    background-color: var(--bck-color);
+    color: var(--text-color);
+  }
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
